@@ -1,10 +1,9 @@
 # Entwicklung
 
 ## Anforderungen
-
 - Maven
 - JDK 17.1
-
+- Die Applikation "hsLehre" ist gestartet
 ## Konfiguration
 - Lade Maven dependencies runter
   ```
