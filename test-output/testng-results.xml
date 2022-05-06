@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Method name is - professorLogin]]>
+    </line>
+    <line>
+      <![CDATA[<br>Status of execution is - passed]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-05-06T22:45:58 CEST" name="hsLehre Projekt test" finished-at="2022-05-06T22:46:00 CEST" duration-ms="1725">
+    <groups>
+    </groups>
+    <test started-at="2022-05-06T22:45:58 CEST" name="Anmeldung" finished-at="2022-05-06T22:46:00 CEST" duration-ms="1725">
+      <class name="ui.Anmeldung">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:ui.Anmeldung@60704c]" started-at="2022-05-06T22:45:54 CEST" name="launchBrowser" finished-at="2022-05-06T22:45:58 CEST" duration-ms="3720" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="professorLogin()[pri:0, instance:ui.Anmeldung@60704c]" started-at="2022-05-06T22:45:58 CEST" name="professorLogin" finished-at="2022-05-06T22:46:00 CEST" duration-ms="1685" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Method name is - professorLogin]]>
+            </line>
+            <line>
+              <![CDATA[<br>Status of execution is - passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- professorLogin -->
+      </class> <!-- ui.Anmeldung -->
+    </test> <!-- Anmeldung -->
+  </suite> <!-- hsLehre Projekt test -->
+</testng-results>
