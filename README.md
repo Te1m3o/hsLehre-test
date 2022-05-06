@@ -12,7 +12,7 @@
   ```
 - Run Applikation
   ```
-      - Rechstklick auf der /testng.xml Datei -> "Run '.../testng.xml'" klicken
+  Rechstklick auf der /testng.xml Datei -> "Run '.../testng.xml'" klicken
   ```
 ## Dokumentation
 In der Datei /test-output/index.html befindet sich den html report.
