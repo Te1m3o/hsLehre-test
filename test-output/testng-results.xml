@@ -8,12 +8,12 @@
       <![CDATA[<br>Status of execution is - passed]]>
     </line>
   </reporter-output>
-  <suite started-at="2022-05-06T22:45:58 CEST" name="hsLehre Projekt test" finished-at="2022-05-06T22:46:00 CEST" duration-ms="1725">
+  <suite started-at="2022-05-06T22:58:23 CEST" name="hsLehre Projekt test" finished-at="2022-05-06T22:58:25 CEST" duration-ms="1700">
     <groups>
     </groups>
-    <test started-at="2022-05-06T22:45:58 CEST" name="Anmeldung" finished-at="2022-05-06T22:46:00 CEST" duration-ms="1725">
+    <test started-at="2022-05-06T22:58:23 CEST" name="Anmeldung" finished-at="2022-05-06T22:58:25 CEST" duration-ms="1700">
       <class name="ui.Anmeldung">
-        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:ui.Anmeldung@60704c]" started-at="2022-05-06T22:45:54 CEST" name="launchBrowser" finished-at="2022-05-06T22:45:58 CEST" duration-ms="3720" status="PASS">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:ui.Anmeldung@2133814f]" started-at="2022-05-06T22:58:19 CEST" name="launchBrowser" finished-at="2022-05-06T22:58:23 CEST" duration-ms="4326" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -24,7 +24,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="professorLogin()[pri:0, instance:ui.Anmeldung@60704c]" started-at="2022-05-06T22:45:58 CEST" name="professorLogin" finished-at="2022-05-06T22:46:00 CEST" duration-ms="1685" status="PASS">
+        <test-method signature="professorLogin()[pri:0, instance:ui.Anmeldung@2133814f]" started-at="2022-05-06T22:58:23 CEST" name="professorLogin" finished-at="2022-05-06T22:58:25 CEST" duration-ms="1642" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Method name is - professorLogin]]>

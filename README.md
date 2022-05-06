@@ -2,7 +2,7 @@
 
 ## Anforderungen
 - Maven
-- JDK 17.1
+- JDK 17.0.2
 - Die Applikation "hsLehre" ist gestartet
 ## Konfiguration
 - Lade Maven dependencies runter
