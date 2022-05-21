@@ -33,4 +33,12 @@ public class FakultaetStellvertreter extends BaseTest {
     // Check if the person is Dekan
     Assert.assertEquals(expectedHeadLine,actualHeadline);
   }
+  @Test
+  public void abmeldung(){
+    anmeldung.anmelden(FV, password);
+    driver.findElement(By.xpath("/html/body/div[1]/div[1]/a")).click();
+    String expectedLabel = "Logout erfolgreich.";
+    String actualLabel = driver.findElement(By.xpath("/html/body/div/div[2]/div/label")).getText();
+    Assert.assertEquals(expectedLabel,actualLabel);
+  }
 }

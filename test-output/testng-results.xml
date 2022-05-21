@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[Method name is - abmeldung]]>
+    </line>
+    <line>
+      <![CDATA[<br>Status of execution is - passed]]>
+    </line>
     <line>
       <![CDATA[Method name is - anmeldung]]>
     </line>
@@ -8,7 +14,19 @@
       <![CDATA[<br>Status of execution is - passed]]>
     </line>
     <line>
+      <![CDATA[Method name is - abmeldung]]>
+    </line>
+    <line>
+      <![CDATA[<br>Status of execution is - passed]]>
+    </line>
+    <line>
       <![CDATA[Method name is - anmeldung]]>
+    </line>
+    <line>
+      <![CDATA[<br>Status of execution is - passed]]>
+    </line>
+    <line>
+      <![CDATA[Method name is - abmeldung]]>
     </line>
     <line>
       <![CDATA[<br>Status of execution is - passed]]>
@@ -26,12 +44,12 @@
       <![CDATA[<br>Status of execution is - passed]]>
     </line>
   </reporter-output>
-  <suite started-at="2022-05-21T21:57:14 CEST" name="hsLehre Projekt test" finished-at="2022-05-21T21:57:26 CEST" duration-ms="11787">
+  <suite started-at="2022-05-21T22:10:25 CEST" name="hsLehre Projekt test" finished-at="2022-05-21T22:10:45 CEST" duration-ms="19435">
     <groups>
     </groups>
-    <test started-at="2022-05-21T21:57:14 CEST" name="Anmeldung" finished-at="2022-05-21T21:57:26 CEST" duration-ms="11787">
+    <test started-at="2022-05-21T22:10:25 CEST" name="Anmeldung" finished-at="2022-05-21T22:10:45 CEST" duration-ms="19435">
       <class name="ui.FakultaetStellvertreter">
-        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:ui.FakultaetStellvertreter@23529fee]" started-at="2022-05-21T21:57:20 CEST" name="launchBrowser" finished-at="2022-05-21T21:57:21 CEST" duration-ms="1038" status="PASS">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:ui.FakultaetStellvertreter@16e7dcfd]" started-at="2022-05-21T22:10:36 CEST" name="launchBrowser" finished-at="2022-05-21T22:10:37 CEST" duration-ms="1070" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -42,7 +60,32 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="anmeldung()[pri:0, instance:ui.FakultaetStellvertreter@23529fee]" started-at="2022-05-21T21:57:21 CEST" name="anmeldung" finished-at="2022-05-21T21:57:22 CEST" duration-ms="987" status="PASS">
+        <test-method signature="abmeldung()[pri:0, instance:ui.FakultaetStellvertreter@16e7dcfd]" started-at="2022-05-21T22:10:37 CEST" name="abmeldung" finished-at="2022-05-21T22:10:39 CEST" duration-ms="1327" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Method name is - abmeldung]]>
+            </line>
+            <line>
+              <![CDATA[<br>Status of execution is - passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- abmeldung -->
+        <test-method is-config="true" signature="closingBrowser()[pri:0, instance:ui.FakultaetStellvertreter@16e7dcfd]" started-at="2022-05-21T22:10:39 CEST" name="closingBrowser" finished-at="2022-05-21T22:10:39 CEST" duration-ms="105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingBrowser -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:ui.FakultaetStellvertreter@16e7dcfd]" started-at="2022-05-21T22:10:39 CEST" name="launchBrowser" finished-at="2022-05-21T22:10:40 CEST" duration-ms="1059" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="anmeldung()[pri:0, instance:ui.FakultaetStellvertreter@16e7dcfd]" started-at="2022-05-21T22:10:40 CEST" name="anmeldung" finished-at="2022-05-21T22:10:41 CEST" duration-ms="1139" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Method name is - anmeldung]]>
@@ -52,7 +95,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- anmeldung -->
-        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:ui.FakultaetStellvertreter@23529fee]" started-at="2022-05-21T21:57:22 CEST" name="launchBrowser" finished-at="2022-05-21T21:57:23 CEST" duration-ms="1023" status="PASS">
+        <test-method is-config="true" signature="closingBrowser()[pri:0, instance:ui.FakultaetStellvertreter@16e7dcfd]" started-at="2022-05-21T22:10:41 CEST" name="closingBrowser" finished-at="2022-05-21T22:10:41 CEST" duration-ms="131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingBrowser -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:ui.FakultaetStellvertreter@16e7dcfd]" started-at="2022-05-21T22:10:41 CEST" name="launchBrowser" finished-at="2022-05-21T22:10:42 CEST" duration-ms="1065" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -63,7 +110,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="rollen_zuweisen()[pri:0, instance:ui.FakultaetStellvertreter@23529fee]" started-at="2022-05-21T21:57:23 CEST" name="rollen_zuweisen" finished-at="2022-05-21T21:57:26 CEST" duration-ms="2779" status="PASS">
+        <test-method signature="rollen_zuweisen()[pri:0, instance:ui.FakultaetStellvertreter@16e7dcfd]" started-at="2022-05-21T22:10:42 CEST" name="rollen_zuweisen" finished-at="2022-05-21T22:10:45 CEST" duration-ms="2531" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Method name is - rollen_zuweisen]]>
@@ -73,13 +120,13 @@
             </line>
           </reporter-output>
         </test-method> <!-- rollen_zuweisen -->
-        <test-method is-config="true" signature="closingBrowser()[pri:0, instance:ui.FakultaetStellvertreter@23529fee]" started-at="2022-05-21T21:57:26 CEST" name="closingBrowser" finished-at="2022-05-21T21:57:26 CEST" duration-ms="114" status="PASS">
+        <test-method is-config="true" signature="closingBrowser()[pri:0, instance:ui.FakultaetStellvertreter@16e7dcfd]" started-at="2022-05-21T22:10:45 CEST" name="closingBrowser" finished-at="2022-05-21T22:10:45 CEST" duration-ms="91" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closingBrowser -->
       </class> <!-- ui.FakultaetStellvertreter -->
       <class name="ui.Professor">
-        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:ui.Professor@69930714]" started-at="2022-05-21T21:57:14 CEST" name="launchBrowser" finished-at="2022-05-21T21:57:16 CEST" duration-ms="2520" status="PASS">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:ui.Professor@4b44655e]" started-at="2022-05-21T22:10:25 CEST" name="launchBrowser" finished-at="2022-05-21T22:10:28 CEST" duration-ms="2849" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -90,7 +137,32 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="anmeldung()[pri:0, instance:ui.Professor@69930714]" started-at="2022-05-21T21:57:16 CEST" name="anmeldung" finished-at="2022-05-21T21:57:17 CEST" duration-ms="888" status="PASS">
+        <test-method signature="abmeldung()[pri:0, instance:ui.Professor@4b44655e]" started-at="2022-05-21T22:10:28 CEST" name="abmeldung" finished-at="2022-05-21T22:10:29 CEST" duration-ms="1235" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Method name is - abmeldung]]>
+            </line>
+            <line>
+              <![CDATA[<br>Status of execution is - passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- abmeldung -->
+        <test-method is-config="true" signature="closingBrowser()[pri:0, instance:ui.Professor@4b44655e]" started-at="2022-05-21T22:10:29 CEST" name="closingBrowser" finished-at="2022-05-21T22:10:30 CEST" duration-ms="131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingBrowser -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:ui.Professor@4b44655e]" started-at="2022-05-21T22:10:30 CEST" name="launchBrowser" finished-at="2022-05-21T22:10:31 CEST" duration-ms="1043" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="anmeldung()[pri:0, instance:ui.Professor@4b44655e]" started-at="2022-05-21T22:10:31 CEST" name="anmeldung" finished-at="2022-05-21T22:10:32 CEST" duration-ms="1059" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Method name is - anmeldung]]>
@@ -100,13 +172,13 @@
             </line>
           </reporter-output>
         </test-method> <!-- anmeldung -->
-        <test-method is-config="true" signature="closingBrowser()[pri:0, instance:ui.Professor@69930714]" started-at="2022-05-21T21:57:17 CEST" name="closingBrowser" finished-at="2022-05-21T21:57:17 CEST" duration-ms="99" status="PASS">
+        <test-method is-config="true" signature="closingBrowser()[pri:0, instance:ui.Professor@4b44655e]" started-at="2022-05-21T22:10:32 CEST" name="closingBrowser" finished-at="2022-05-21T22:10:32 CEST" duration-ms="78" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closingBrowser -->
       </class> <!-- ui.Professor -->
       <class name="ui.Dekan">
-        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:ui.Dekan@43ee72e6]" started-at="2022-05-21T21:57:17 CEST" name="launchBrowser" finished-at="2022-05-21T21:57:18 CEST" duration-ms="1054" status="PASS">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:ui.Dekan@222114ba]" started-at="2022-05-21T22:10:32 CEST" name="launchBrowser" finished-at="2022-05-21T22:10:33 CEST" duration-ms="1020" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -117,7 +189,32 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="anmeldung()[pri:0, instance:ui.Dekan@43ee72e6]" started-at="2022-05-21T21:57:18 CEST" name="anmeldung" finished-at="2022-05-21T21:57:20 CEST" duration-ms="1160" status="PASS">
+        <test-method signature="abmeldung()[pri:0, instance:ui.Dekan@222114ba]" started-at="2022-05-21T22:10:33 CEST" name="abmeldung" finished-at="2022-05-21T22:10:34 CEST" duration-ms="1075" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Method name is - abmeldung]]>
+            </line>
+            <line>
+              <![CDATA[<br>Status of execution is - passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- abmeldung -->
+        <test-method is-config="true" signature="closingBrowser()[pri:0, instance:ui.Dekan@222114ba]" started-at="2022-05-21T22:10:34 CEST" name="closingBrowser" finished-at="2022-05-21T22:10:34 CEST" duration-ms="134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingBrowser -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:ui.Dekan@222114ba]" started-at="2022-05-21T22:10:34 CEST" name="launchBrowser" finished-at="2022-05-21T22:10:35 CEST" duration-ms="1133" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="anmeldung()[pri:0, instance:ui.Dekan@222114ba]" started-at="2022-05-21T22:10:35 CEST" name="anmeldung" finished-at="2022-05-21T22:10:36 CEST" duration-ms="962" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Method name is - anmeldung]]>
@@ -127,7 +224,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- anmeldung -->
-        <test-method is-config="true" signature="closingBrowser()[pri:0, instance:ui.Dekan@43ee72e6]" started-at="2022-05-21T21:57:20 CEST" name="closingBrowser" finished-at="2022-05-21T21:57:20 CEST" duration-ms="59" status="PASS">
+        <test-method is-config="true" signature="closingBrowser()[pri:0, instance:ui.Dekan@222114ba]" started-at="2022-05-21T22:10:36 CEST" name="closingBrowser" finished-at="2022-05-21T22:10:36 CEST" duration-ms="126" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closingBrowser -->
