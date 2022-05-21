@@ -11,13 +11,7 @@ import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
 public class Anmeldung extends BaseTest {
-  String password = "1234";
-  String professor ="eti.ulf.steinke@fh-stralsund.de";
-  @Test
-  public void professorLogin(){
-    login(professor, password);
-  }
-  public void login(String username, String password) {
+  public void anmelden(String username, String password) {
     driver.get("http://localhost:8080/login");
     //Maxzimize current window
     driver.manage().window().maximize();

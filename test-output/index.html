@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -104,7 +104,17 @@
                     <div class="method-list-content passed suite-hsLehre_Projekt_test">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-hsLehre_Projekt_test" title="ui.Anmeldung" class="method navigator-link" hash-for-method="professorLogin">professorLogin</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-hsLehre_Projekt_test" title="ui.FV_Anmeldung" class="method navigator-link" hash-for-method="FV_Anmeldung">FV_Anmeldung</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-hsLehre_Projekt_test" title="ui.DekanAnmeldung" class="method navigator-link" hash-for-method="dekanAnmeldung">dekanAnmeldung</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-hsLehre_Projekt_test" title="ui.ProfessorAnmeldung" class="method navigator-link" hash-for-method="professorAnmeldung">professorAnmeldung</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-hsLehre_Projekt_test -->
@@ -122,14 +132,44 @@
           <div class="suite-hsLehre_Projekt_test-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">ui.Anmeldung</span>
+              <span class="class-name">ui.FV_Anmeldung</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="professorLogin">
-                  </a> <!-- professorLogin -->
-                  <span class="method-name">professorLogin</span>
+                  <a name="FV_Anmeldung">
+                  </a> <!-- FV_Anmeldung -->
+                  <span class="method-name">FV_Anmeldung</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-hsLehre_Projekt_test-class-passed -->
+          <div class="suite-hsLehre_Projekt_test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">ui.DekanAnmeldung</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="dekanAnmeldung">
+                  </a> <!-- dekanAnmeldung -->
+                  <span class="method-name">dekanAnmeldung</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-hsLehre_Projekt_test-class-passed -->
+          <div class="suite-hsLehre_Projekt_test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">ui.ProfessorAnmeldung</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="professorAnmeldung">
+                  </a> <!-- professorAnmeldung -->
+                  <span class="method-name">professorAnmeldung</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -150,7 +190,9 @@
   &lt;/listeners&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Anmeldung&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;ui.Anmeldung&quot;/&gt;
+      &lt;class name=&quot;ui.ProfessorAnmeldung&quot;/&gt;
+      &lt;class name=&quot;ui.DekanAnmeldung&quot;/&gt;
+      &lt;class name=&quot;ui.FV_Anmeldung&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Anmeldung --&gt;
 &lt;/suite&gt; &lt;!-- hsLehre Projekt test --&gt;
@@ -164,7 +206,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Anmeldung (1 class)</span>
+                <span class="test-name">Anmeldung (3 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -190,16 +232,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'professorLogin')
-data.setCell(0, 2, 'ui.Anmeldung')
-data.setCell(0, 3, 1642);
+data.setCell(0, 1, 'dekanAnmeldung')
+data.setCell(0, 2, 'ui.DekanAnmeldung')
+data.setCell(0, 3, 1417);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'FV_Anmeldung')
+data.setCell(1, 2, 'ui.FV_Anmeldung')
+data.setCell(1, 3, 1091);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'professorAnmeldung')
+data.setCell(2, 2, 'ui.ProfessorAnmeldung')
+data.setCell(2, 3, 957);
 window.suiteTableData['hsLehre_Projekt_test']= { tableData: data, tableDiv: 'times-div-hsLehre_Projekt_test'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 seconds</span>
+              <span class="suite-total-time">Total running time: 3 seconds</span>
               <div id="times-div-hsLehre_Projekt_test">
               </div> <!-- times-div-hsLehre_Projekt_test -->
             </div> <!-- times-div -->
@@ -211,9 +261,23 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="reporter-method-div">
-              <span class="reporter-method-name">professorLogin</span>
+              <span class="reporter-method-name">dekanAnmeldung</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Method name is - professorLogin</span>
+                <span class="reporter-method-output">Method name is - dekanAnmeldung</span>
+                <span class="reporter-method-output"><br>Status of execution is - passed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">professorAnmeldung</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Method name is - professorAnmeldung</span>
+                <span class="reporter-method-output"><br>Status of execution is - passed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">FV_Anmeldung</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Method name is - FV_Anmeldung</span>
                 <span class="reporter-method-output"><br>Status of execution is - passed</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
@@ -232,15 +296,49 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">ui.Anmeldung</div> <!-- chronological-class-name -->
-              <div class="configuration-suite before">
+              <div class="chronological-class-name">ui.ProfessorAnmeldung</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
                 <span class="method-name">launchBrowser(chrome)</span>
                 <span class="method-start">0 ms</span>
-              </div> <!-- configuration-suite before -->
+              </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">professorLogin</span>
-                <span class="method-start">4377 ms</span>
+                <span class="method-name">professorAnmeldung</span>
+                <span class="method-start">2513 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">closingBrowser</span>
+                <span class="method-start">3473 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ui.DekanAnmeldung</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">launchBrowser(chrome)</span>
+                <span class="method-start">3639 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">dekanAnmeldung</span>
+                <span class="method-start">4666 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">closingBrowser</span>
+                <span class="method-start">6084 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ui.FV_Anmeldung</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">launchBrowser(chrome)</span>
+                <span class="method-start">6339 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">FV_Anmeldung</span>
+                <span class="method-start">7365 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">closingBrowser</span>
+                <span class="method-start">8457 ms</span>
+              </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

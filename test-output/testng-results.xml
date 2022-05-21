@@ -1,19 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
     <line>
-      <![CDATA[Method name is - professorLogin]]>
+      <![CDATA[Method name is - professorAnmeldung]]>
+    </line>
+    <line>
+      <![CDATA[<br>Status of execution is - passed]]>
+    </line>
+    <line>
+      <![CDATA[Method name is - dekanAnmeldung]]>
+    </line>
+    <line>
+      <![CDATA[<br>Status of execution is - passed]]>
+    </line>
+    <line>
+      <![CDATA[Method name is - FV_Anmeldung]]>
     </line>
     <line>
       <![CDATA[<br>Status of execution is - passed]]>
     </line>
   </reporter-output>
-  <suite started-at="2022-05-06T22:58:23 CEST" name="hsLehre Projekt test" finished-at="2022-05-06T22:58:25 CEST" duration-ms="1700">
+  <suite started-at="2022-05-21T19:35:39 CEST" name="hsLehre Projekt test" finished-at="2022-05-21T19:35:47 CEST" duration-ms="8545">
     <groups>
     </groups>
-    <test started-at="2022-05-06T22:58:23 CEST" name="Anmeldung" finished-at="2022-05-06T22:58:25 CEST" duration-ms="1700">
-      <class name="ui.Anmeldung">
-        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:ui.Anmeldung@2133814f]" started-at="2022-05-06T22:58:19 CEST" name="launchBrowser" finished-at="2022-05-06T22:58:23 CEST" duration-ms="4326" status="PASS">
+    <test started-at="2022-05-21T19:35:39 CEST" name="Anmeldung" finished-at="2022-05-21T19:35:47 CEST" duration-ms="8545">
+      <class name="ui.ProfessorAnmeldung">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:ui.ProfessorAnmeldung@2fd6b6c7]" started-at="2022-05-21T19:35:39 CEST" name="launchBrowser" finished-at="2022-05-21T19:35:41 CEST" duration-ms="2504" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -24,17 +36,75 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="professorLogin()[pri:0, instance:ui.Anmeldung@2133814f]" started-at="2022-05-06T22:58:23 CEST" name="professorLogin" finished-at="2022-05-06T22:58:25 CEST" duration-ms="1642" status="PASS">
+        <test-method signature="professorAnmeldung()[pri:0, instance:ui.ProfessorAnmeldung@2fd6b6c7]" started-at="2022-05-21T19:35:41 CEST" name="professorAnmeldung" finished-at="2022-05-21T19:35:42 CEST" duration-ms="957" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[Method name is - professorLogin]]>
+              <![CDATA[Method name is - professorAnmeldung]]>
             </line>
             <line>
               <![CDATA[<br>Status of execution is - passed]]>
             </line>
           </reporter-output>
-        </test-method> <!-- professorLogin -->
-      </class> <!-- ui.Anmeldung -->
+        </test-method> <!-- professorAnmeldung -->
+        <test-method is-config="true" signature="closingBrowser()[pri:0, instance:ui.ProfessorAnmeldung@2fd6b6c7]" started-at="2022-05-21T19:35:42 CEST" name="closingBrowser" finished-at="2022-05-21T19:35:42 CEST" duration-ms="164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingBrowser -->
+      </class> <!-- ui.ProfessorAnmeldung -->
+      <class name="ui.FV_Anmeldung">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:ui.FV_Anmeldung@3c72f59f]" started-at="2022-05-21T19:35:45 CEST" name="launchBrowser" finished-at="2022-05-21T19:35:46 CEST" duration-ms="1025" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="FV_Anmeldung()[pri:0, instance:ui.FV_Anmeldung@3c72f59f]" started-at="2022-05-21T19:35:46 CEST" name="FV_Anmeldung" finished-at="2022-05-21T19:35:47 CEST" duration-ms="1091" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Method name is - FV_Anmeldung]]>
+            </line>
+            <line>
+              <![CDATA[<br>Status of execution is - passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- FV_Anmeldung -->
+        <test-method is-config="true" signature="closingBrowser()[pri:0, instance:ui.FV_Anmeldung@3c72f59f]" started-at="2022-05-21T19:35:47 CEST" name="closingBrowser" finished-at="2022-05-21T19:35:47 CEST" duration-ms="62" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingBrowser -->
+      </class> <!-- ui.FV_Anmeldung -->
+      <class name="ui.DekanAnmeldung">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:ui.DekanAnmeldung@ec756bd]" started-at="2022-05-21T19:35:42 CEST" name="launchBrowser" finished-at="2022-05-21T19:35:43 CEST" duration-ms="1027" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="dekanAnmeldung()[pri:0, instance:ui.DekanAnmeldung@ec756bd]" started-at="2022-05-21T19:35:43 CEST" name="dekanAnmeldung" finished-at="2022-05-21T19:35:45 CEST" duration-ms="1417" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Method name is - dekanAnmeldung]]>
+            </line>
+            <line>
+              <![CDATA[<br>Status of execution is - passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- dekanAnmeldung -->
+        <test-method is-config="true" signature="closingBrowser()[pri:0, instance:ui.DekanAnmeldung@ec756bd]" started-at="2022-05-21T19:35:45 CEST" name="closingBrowser" finished-at="2022-05-21T19:35:45 CEST" duration-ms="254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingBrowser -->
+      </class> <!-- ui.DekanAnmeldung -->
     </test> <!-- Anmeldung -->
   </suite> <!-- hsLehre Projekt test -->
 </testng-results>
