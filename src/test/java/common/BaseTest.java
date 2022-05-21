@@ -7,12 +7,14 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
 
 public class BaseTest {
   public static WebDriver driver = null;
-  @BeforeClass
+  @BeforeMethod
   @Parameters({"browser"})
   public void launchBrowser(String browser) {
     if (browser.equals("firefox")) {

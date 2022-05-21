@@ -6,10 +6,9 @@
   </listeners>
   <test name="Anmeldung">
     <classes>
-      <class name="ui.ProfessorAnmeldung" />
-      <class name="ui.DekanAnmeldung" />
-      <class name="ui.FV_Anmeldung"></class>
-      <class name="ui.FakultaetsSV"></class>
+      <class name="ui.Professor" />
+      <class name="ui.Dekan" />
+      <class name="ui.FakultaetStellvertreter"></class>
     </classes>
   </test>
 </suite>

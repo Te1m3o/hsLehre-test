@@ -2,19 +2,19 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
     <line>
-      <![CDATA[Method name is - professorAnmeldung]]>
+      <![CDATA[Method name is - anmeldung]]>
     </line>
     <line>
       <![CDATA[<br>Status of execution is - passed]]>
     </line>
     <line>
-      <![CDATA[Method name is - dekanAnmeldung]]>
+      <![CDATA[Method name is - anmeldung]]>
     </line>
     <line>
       <![CDATA[<br>Status of execution is - passed]]>
     </line>
     <line>
-      <![CDATA[Method name is - FV_Anmeldung]]>
+      <![CDATA[Method name is - anmeldung]]>
     </line>
     <line>
       <![CDATA[<br>Status of execution is - passed]]>
@@ -26,12 +26,12 @@
       <![CDATA[<br>Status of execution is - passed]]>
     </line>
   </reporter-output>
-  <suite started-at="2022-05-21T21:28:00 CEST" name="hsLehre Projekt test" finished-at="2022-05-21T21:28:11 CEST" duration-ms="11170">
+  <suite started-at="2022-05-21T21:57:14 CEST" name="hsLehre Projekt test" finished-at="2022-05-21T21:57:26 CEST" duration-ms="11787">
     <groups>
     </groups>
-    <test started-at="2022-05-21T21:28:00 CEST" name="Anmeldung" finished-at="2022-05-21T21:28:11 CEST" duration-ms="11170">
-      <class name="ui.ProfessorAnmeldung">
-        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:ui.ProfessorAnmeldung@75f32542]" started-at="2022-05-21T21:28:00 CEST" name="launchBrowser" finished-at="2022-05-21T21:28:02 CEST" duration-ms="2433" status="PASS">
+    <test started-at="2022-05-21T21:57:14 CEST" name="Anmeldung" finished-at="2022-05-21T21:57:26 CEST" duration-ms="11787">
+      <class name="ui.FakultaetStellvertreter">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:ui.FakultaetStellvertreter@23529fee]" started-at="2022-05-21T21:57:20 CEST" name="launchBrowser" finished-at="2022-05-21T21:57:21 CEST" duration-ms="1038" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -42,23 +42,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="professorAnmeldung()[pri:0, instance:ui.ProfessorAnmeldung@75f32542]" started-at="2022-05-21T21:28:02 CEST" name="professorAnmeldung" finished-at="2022-05-21T21:28:03 CEST" duration-ms="899" status="PASS">
+        <test-method signature="anmeldung()[pri:0, instance:ui.FakultaetStellvertreter@23529fee]" started-at="2022-05-21T21:57:21 CEST" name="anmeldung" finished-at="2022-05-21T21:57:22 CEST" duration-ms="987" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[Method name is - professorAnmeldung]]>
+              <![CDATA[Method name is - anmeldung]]>
             </line>
             <line>
               <![CDATA[<br>Status of execution is - passed]]>
             </line>
           </reporter-output>
-        </test-method> <!-- professorAnmeldung -->
-        <test-method is-config="true" signature="closingBrowser()[pri:0, instance:ui.ProfessorAnmeldung@75f32542]" started-at="2022-05-21T21:28:03 CEST" name="closingBrowser" finished-at="2022-05-21T21:28:03 CEST" duration-ms="65" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closingBrowser -->
-      </class> <!-- ui.ProfessorAnmeldung -->
-      <class name="ui.FakultaetsSV">
-        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:ui.FakultaetsSV@38c5cc4c]" started-at="2022-05-21T21:28:07 CEST" name="launchBrowser" finished-at="2022-05-21T21:28:08 CEST" duration-ms="1042" status="PASS">
+        </test-method> <!-- anmeldung -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:ui.FakultaetStellvertreter@23529fee]" started-at="2022-05-21T21:57:22 CEST" name="launchBrowser" finished-at="2022-05-21T21:57:23 CEST" duration-ms="1023" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -69,7 +63,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="rollen_zuweisen()[pri:0, instance:ui.FakultaetsSV@38c5cc4c]" started-at="2022-05-21T21:28:08 CEST" name="rollen_zuweisen" finished-at="2022-05-21T21:28:11 CEST" duration-ms="2440" status="PASS">
+        <test-method signature="rollen_zuweisen()[pri:0, instance:ui.FakultaetStellvertreter@23529fee]" started-at="2022-05-21T21:57:23 CEST" name="rollen_zuweisen" finished-at="2022-05-21T21:57:26 CEST" duration-ms="2779" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Method name is - rollen_zuweisen]]>
@@ -79,13 +73,13 @@
             </line>
           </reporter-output>
         </test-method> <!-- rollen_zuweisen -->
-        <test-method is-config="true" signature="closingBrowser()[pri:0, instance:ui.FakultaetsSV@38c5cc4c]" started-at="2022-05-21T21:28:11 CEST" name="closingBrowser" finished-at="2022-05-21T21:28:11 CEST" duration-ms="92" status="PASS">
+        <test-method is-config="true" signature="closingBrowser()[pri:0, instance:ui.FakultaetStellvertreter@23529fee]" started-at="2022-05-21T21:57:26 CEST" name="closingBrowser" finished-at="2022-05-21T21:57:26 CEST" duration-ms="114" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closingBrowser -->
-      </class> <!-- ui.FakultaetsSV -->
-      <class name="ui.FV_Anmeldung">
-        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:ui.FV_Anmeldung@223f3642]" started-at="2022-05-21T21:28:05 CEST" name="launchBrowser" finished-at="2022-05-21T21:28:06 CEST" duration-ms="1015" status="PASS">
+      </class> <!-- ui.FakultaetStellvertreter -->
+      <class name="ui.Professor">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:ui.Professor@69930714]" started-at="2022-05-21T21:57:14 CEST" name="launchBrowser" finished-at="2022-05-21T21:57:16 CEST" duration-ms="2520" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -96,23 +90,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="FV_Anmeldung()[pri:0, instance:ui.FV_Anmeldung@223f3642]" started-at="2022-05-21T21:28:06 CEST" name="FV_Anmeldung" finished-at="2022-05-21T21:28:07 CEST" duration-ms="1028" status="PASS">
+        <test-method signature="anmeldung()[pri:0, instance:ui.Professor@69930714]" started-at="2022-05-21T21:57:16 CEST" name="anmeldung" finished-at="2022-05-21T21:57:17 CEST" duration-ms="888" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[Method name is - FV_Anmeldung]]>
+              <![CDATA[Method name is - anmeldung]]>
             </line>
             <line>
               <![CDATA[<br>Status of execution is - passed]]>
             </line>
           </reporter-output>
-        </test-method> <!-- FV_Anmeldung -->
-        <test-method is-config="true" signature="closingBrowser()[pri:0, instance:ui.FV_Anmeldung@223f3642]" started-at="2022-05-21T21:28:07 CEST" name="closingBrowser" finished-at="2022-05-21T21:28:07 CEST" duration-ms="103" status="PASS">
+        </test-method> <!-- anmeldung -->
+        <test-method is-config="true" signature="closingBrowser()[pri:0, instance:ui.Professor@69930714]" started-at="2022-05-21T21:57:17 CEST" name="closingBrowser" finished-at="2022-05-21T21:57:17 CEST" duration-ms="99" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closingBrowser -->
-      </class> <!-- ui.FV_Anmeldung -->
-      <class name="ui.DekanAnmeldung">
-        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:ui.DekanAnmeldung@5db250b4]" started-at="2022-05-21T21:28:03 CEST" name="launchBrowser" finished-at="2022-05-21T21:28:04 CEST" duration-ms="1055" status="PASS">
+      </class> <!-- ui.Professor -->
+      <class name="ui.Dekan">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:ui.Dekan@43ee72e6]" started-at="2022-05-21T21:57:17 CEST" name="launchBrowser" finished-at="2022-05-21T21:57:18 CEST" duration-ms="1054" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -123,21 +117,21 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="dekanAnmeldung()[pri:0, instance:ui.DekanAnmeldung@5db250b4]" started-at="2022-05-21T21:28:04 CEST" name="dekanAnmeldung" finished-at="2022-05-21T21:28:05 CEST" duration-ms="869" status="PASS">
+        <test-method signature="anmeldung()[pri:0, instance:ui.Dekan@43ee72e6]" started-at="2022-05-21T21:57:18 CEST" name="anmeldung" finished-at="2022-05-21T21:57:20 CEST" duration-ms="1160" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[Method name is - dekanAnmeldung]]>
+              <![CDATA[Method name is - anmeldung]]>
             </line>
             <line>
               <![CDATA[<br>Status of execution is - passed]]>
             </line>
           </reporter-output>
-        </test-method> <!-- dekanAnmeldung -->
-        <test-method is-config="true" signature="closingBrowser()[pri:0, instance:ui.DekanAnmeldung@5db250b4]" started-at="2022-05-21T21:28:05 CEST" name="closingBrowser" finished-at="2022-05-21T21:28:05 CEST" duration-ms="91" status="PASS">
+        </test-method> <!-- anmeldung -->
+        <test-method is-config="true" signature="closingBrowser()[pri:0, instance:ui.Dekan@43ee72e6]" started-at="2022-05-21T21:57:20 CEST" name="closingBrowser" finished-at="2022-05-21T21:57:20 CEST" duration-ms="59" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closingBrowser -->
-      </class> <!-- ui.DekanAnmeldung -->
+      </class> <!-- ui.Dekan -->
     </test> <!-- Anmeldung -->
   </suite> <!-- hsLehre Projekt test -->
 </testng-results>

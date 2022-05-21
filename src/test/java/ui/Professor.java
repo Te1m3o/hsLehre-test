@@ -4,13 +4,13 @@ import common.BaseTest;
 import org.openqa.selenium.By;
 import org.testng.annotations.Test;
 
-public class DekanAnmeldung extends BaseTest {
+public class Professor extends BaseTest {
   String password = "1234";
-  String dekan ="eti.ulf.steinke@fh-stralsund.de";
+  String professor ="eti.ulf.steinke@fh-stralsund.de";
   Anmeldung anmeldung = new Anmeldung();
   @Test
-  public void dekanAnmeldung(){
-    anmeldung.anmelden(dekan, password);
+  public void anmeldung(){
+    anmeldung.anmelden(professor, password);
     driver.findElement(By.xpath("/html/body/div[1]/h2")).isDisplayed();
   }
 }
