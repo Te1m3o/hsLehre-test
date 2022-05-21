@@ -9,6 +9,7 @@
       <class name="ui.ProfessorAnmeldung" />
       <class name="ui.DekanAnmeldung" />
       <class name="ui.FV_Anmeldung"></class>
+      <class name="ui.FakultaetsSV"></class>
     </classes>
   </test>
 </suite>
