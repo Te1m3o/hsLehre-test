@@ -1,55 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+<testng-results ignored="2" total="12" passed="9" failed="1" skipped="0">
   <reporter-output>
     <line>
-      <![CDATA[Method name is - abmeldung]]>
+      <![CDATA[Method name is - Abmeldung]]>
     </line>
     <line>
       <![CDATA[<br>Status of execution is - passed]]>
     </line>
     <line>
-      <![CDATA[Method name is - anmeldung]]>
+      <![CDATA[Method name is - Anmeldung]]>
     </line>
     <line>
       <![CDATA[<br>Status of execution is - passed]]>
     </line>
     <line>
-      <![CDATA[Method name is - abmeldung]]>
+      <![CDATA[Method name is - Abmeldung]]>
     </line>
     <line>
       <![CDATA[<br>Status of execution is - passed]]>
     </line>
     <line>
-      <![CDATA[Method name is - anmeldung]]>
+      <![CDATA[Method name is - Anmeldung]]>
     </line>
     <line>
       <![CDATA[<br>Status of execution is - passed]]>
     </line>
     <line>
-      <![CDATA[Method name is - abmeldung]]>
+      <![CDATA[Method name is - Rollen_wechsel]]>
     </line>
     <line>
       <![CDATA[<br>Status of execution is - passed]]>
     </line>
     <line>
-      <![CDATA[Method name is - anmeldung]]>
+      <![CDATA[Method name is - Abmeldung]]>
     </line>
     <line>
       <![CDATA[<br>Status of execution is - passed]]>
     </line>
     <line>
-      <![CDATA[Method name is - rollen_zuweisen]]>
+      <![CDATA[Method name is - Anmeldung]]>
     </line>
     <line>
       <![CDATA[<br>Status of execution is - passed]]>
+    </line>
+    <line>
+      <![CDATA[Method name is - Rollen_wechsel]]>
+    </line>
+    <line>
+      <![CDATA[<br>Status of execution is - passed]]>
+    </line>
+    <line>
+      <![CDATA[Method name is - Rollen_zuweisen]]>
+    </line>
+    <line>
+      <![CDATA[<br>Status of execution is - passed]]>
+    </line>
+    <line>
+      <![CDATA[Method name is - neuen_Studiengang_hinterlegen]]>
+    </line>
+    <line>
+      <![CDATA[Status of execution is - failed]]>
+    </line>
+    <line>
+      <![CDATA[<br>Screenshot - <a href="file:///hsLehre-test/screenshotSun-May-22-21-40-30-CEST-2022.png">Test Results</a>]]>
     </line>
   </reporter-output>
-  <suite started-at="2022-05-21T22:10:25 CEST" name="hsLehre Projekt test" finished-at="2022-05-21T22:10:45 CEST" duration-ms="19435">
+  <suite started-at="2022-05-22T21:39:30 CEST" name="hsLehre Projekt test" finished-at="2022-05-22T21:40:30 CEST" duration-ms="60118">
     <groups>
     </groups>
-    <test started-at="2022-05-21T22:10:25 CEST" name="Anmeldung" finished-at="2022-05-21T22:10:45 CEST" duration-ms="19435">
+    <test started-at="2022-05-22T21:39:30 CEST" name="Anmeldung" finished-at="2022-05-22T21:40:30 CEST" duration-ms="60118">
       <class name="ui.FakultaetStellvertreter">
-        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:ui.FakultaetStellvertreter@16e7dcfd]" started-at="2022-05-21T22:10:36 CEST" name="launchBrowser" finished-at="2022-05-21T22:10:37 CEST" duration-ms="1070" status="PASS">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:ui.FakultaetStellvertreter@5db250b4]" started-at="2022-05-22T21:39:52 CEST" name="launchBrowser" finished-at="2022-05-22T21:39:54 CEST" duration-ms="1910" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -60,21 +81,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="abmeldung()[pri:0, instance:ui.FakultaetStellvertreter@16e7dcfd]" started-at="2022-05-21T22:10:37 CEST" name="abmeldung" finished-at="2022-05-21T22:10:39 CEST" duration-ms="1327" status="PASS">
+        <test-method signature="Abmeldung()[pri:0, instance:ui.FakultaetStellvertreter@5db250b4]" started-at="2022-05-22T21:39:54 CEST" name="Abmeldung" finished-at="2022-05-22T21:39:57 CEST" duration-ms="2594" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[Method name is - abmeldung]]>
+              <![CDATA[Method name is - Abmeldung]]>
             </line>
             <line>
               <![CDATA[<br>Status of execution is - passed]]>
             </line>
           </reporter-output>
-        </test-method> <!-- abmeldung -->
-        <test-method is-config="true" signature="closingBrowser()[pri:0, instance:ui.FakultaetStellvertreter@16e7dcfd]" started-at="2022-05-21T22:10:39 CEST" name="closingBrowser" finished-at="2022-05-21T22:10:39 CEST" duration-ms="105" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closingBrowser -->
-        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:ui.FakultaetStellvertreter@16e7dcfd]" started-at="2022-05-21T22:10:39 CEST" name="launchBrowser" finished-at="2022-05-21T22:10:40 CEST" duration-ms="1059" status="PASS">
+        </test-method> <!-- Abmeldung -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:ui.FakultaetStellvertreter@5db250b4]" started-at="2022-05-22T21:39:57 CEST" name="launchBrowser" finished-at="2022-05-22T21:39:59 CEST" duration-ms="1896" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -85,21 +102,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="anmeldung()[pri:0, instance:ui.FakultaetStellvertreter@16e7dcfd]" started-at="2022-05-21T22:10:40 CEST" name="anmeldung" finished-at="2022-05-21T22:10:41 CEST" duration-ms="1139" status="PASS">
+        <test-method signature="Anmeldung()[pri:0, instance:ui.FakultaetStellvertreter@5db250b4]" started-at="2022-05-22T21:39:59 CEST" name="Anmeldung" finished-at="2022-05-22T21:40:01 CEST" duration-ms="2373" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[Method name is - anmeldung]]>
+              <![CDATA[Method name is - Anmeldung]]>
             </line>
             <line>
               <![CDATA[<br>Status of execution is - passed]]>
             </line>
           </reporter-output>
-        </test-method> <!-- anmeldung -->
-        <test-method is-config="true" signature="closingBrowser()[pri:0, instance:ui.FakultaetStellvertreter@16e7dcfd]" started-at="2022-05-21T22:10:41 CEST" name="closingBrowser" finished-at="2022-05-21T22:10:41 CEST" duration-ms="131" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closingBrowser -->
-        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:ui.FakultaetStellvertreter@16e7dcfd]" started-at="2022-05-21T22:10:41 CEST" name="launchBrowser" finished-at="2022-05-21T22:10:42 CEST" duration-ms="1065" status="PASS">
+        </test-method> <!-- Anmeldung -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:ui.FakultaetStellvertreter@5db250b4]" started-at="2022-05-22T21:40:01 CEST" name="launchBrowser" finished-at="2022-05-22T21:40:03 CEST" duration-ms="2148" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -110,23 +123,107 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="rollen_zuweisen()[pri:0, instance:ui.FakultaetStellvertreter@16e7dcfd]" started-at="2022-05-21T22:10:42 CEST" name="rollen_zuweisen" finished-at="2022-05-21T22:10:45 CEST" duration-ms="2531" status="PASS">
+        <test-method signature="Rollen_wechsel()[pri:0, instance:ui.FakultaetStellvertreter@5db250b4]" started-at="2022-05-22T21:40:03 CEST" name="Rollen_wechsel" finished-at="2022-05-22T21:40:08 CEST" duration-ms="4556" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[Method name is - rollen_zuweisen]]>
+              <![CDATA[Method name is - Rollen_wechsel]]>
             </line>
             <line>
               <![CDATA[<br>Status of execution is - passed]]>
             </line>
           </reporter-output>
-        </test-method> <!-- rollen_zuweisen -->
-        <test-method is-config="true" signature="closingBrowser()[pri:0, instance:ui.FakultaetStellvertreter@16e7dcfd]" started-at="2022-05-21T22:10:45 CEST" name="closingBrowser" finished-at="2022-05-21T22:10:45 CEST" duration-ms="91" status="PASS">
+        </test-method> <!-- Rollen_wechsel -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:ui.FakultaetStellvertreter@5db250b4]" started-at="2022-05-22T21:40:08 CEST" name="launchBrowser" finished-at="2022-05-22T21:40:10 CEST" duration-ms="1759" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- closingBrowser -->
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="Rollen_zuweisen()[pri:0, instance:ui.FakultaetStellvertreter@5db250b4]" started-at="2022-05-22T21:40:10 CEST" name="Rollen_zuweisen" finished-at="2022-05-22T21:40:24 CEST" duration-ms="14164" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Method name is - Rollen_zuweisen]]>
+            </line>
+            <line>
+              <![CDATA[<br>Status of execution is - passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Rollen_zuweisen -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:ui.FakultaetStellvertreter@5db250b4]" started-at="2022-05-22T21:40:24 CEST" name="launchBrowser" finished-at="2022-05-22T21:40:25 CEST" duration-ms="1208" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="neuen_Studiengang_hinterlegen()[pri:0, instance:ui.FakultaetStellvertreter@5db250b4]" started-at="2022-05-22T21:40:25 CEST" name="neuen_Studiengang_hinterlegen" finished-at="2022-05-22T21:40:28 CEST" duration-ms="2508" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Test Bezeichnung] but found [Matthias Ahlhaus]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Test Bezeichnung] but found [Matthias Ahlhaus]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at ui.FakultaetStellvertreter.neuen_Studiengang_hinterlegen(FakultaetStellvertreter.java:107)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Method name is - neuen_Studiengang_hinterlegen]]>
+            </line>
+            <line>
+              <![CDATA[Status of execution is - failed]]>
+            </line>
+            <line>
+              <![CDATA[<br>Screenshot - <a href="file:///hsLehre-test/screenshotSun-May-22-21-40-30-CEST-2022.png">Test Results</a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- neuen_Studiengang_hinterlegen -->
       </class> <!-- ui.FakultaetStellvertreter -->
       <class name="ui.Professor">
-        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:ui.Professor@4b44655e]" started-at="2022-05-21T22:10:25 CEST" name="launchBrowser" finished-at="2022-05-21T22:10:28 CEST" duration-ms="2849" status="PASS">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:ui.Professor@7692d9cc]" started-at="2022-05-22T21:39:30 CEST" name="launchBrowser" finished-at="2022-05-22T21:39:33 CEST" duration-ms="3162" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -137,21 +234,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="abmeldung()[pri:0, instance:ui.Professor@4b44655e]" started-at="2022-05-21T22:10:28 CEST" name="abmeldung" finished-at="2022-05-21T22:10:29 CEST" duration-ms="1235" status="PASS">
+        <test-method signature="Abmeldung()[pri:0, instance:ui.Professor@7692d9cc]" started-at="2022-05-22T21:39:33 CEST" name="Abmeldung" finished-at="2022-05-22T21:39:35 CEST" duration-ms="1441" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[Method name is - abmeldung]]>
+              <![CDATA[Method name is - Abmeldung]]>
             </line>
             <line>
               <![CDATA[<br>Status of execution is - passed]]>
             </line>
           </reporter-output>
-        </test-method> <!-- abmeldung -->
-        <test-method is-config="true" signature="closingBrowser()[pri:0, instance:ui.Professor@4b44655e]" started-at="2022-05-21T22:10:29 CEST" name="closingBrowser" finished-at="2022-05-21T22:10:30 CEST" duration-ms="131" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closingBrowser -->
-        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:ui.Professor@4b44655e]" started-at="2022-05-21T22:10:30 CEST" name="launchBrowser" finished-at="2022-05-21T22:10:31 CEST" duration-ms="1043" status="PASS">
+        </test-method> <!-- Abmeldung -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:ui.Professor@7692d9cc]" started-at="2022-05-22T21:39:35 CEST" name="launchBrowser" finished-at="2022-05-22T21:39:36 CEST" duration-ms="1225" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -162,23 +255,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="anmeldung()[pri:0, instance:ui.Professor@4b44655e]" started-at="2022-05-21T22:10:31 CEST" name="anmeldung" finished-at="2022-05-21T22:10:32 CEST" duration-ms="1059" status="PASS">
+        <test-method signature="Anmeldung()[pri:0, instance:ui.Professor@7692d9cc]" started-at="2022-05-22T21:39:36 CEST" name="Anmeldung" finished-at="2022-05-22T21:39:38 CEST" duration-ms="1509" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[Method name is - anmeldung]]>
+              <![CDATA[Method name is - Anmeldung]]>
             </line>
             <line>
               <![CDATA[<br>Status of execution is - passed]]>
             </line>
           </reporter-output>
-        </test-method> <!-- anmeldung -->
-        <test-method is-config="true" signature="closingBrowser()[pri:0, instance:ui.Professor@4b44655e]" started-at="2022-05-21T22:10:32 CEST" name="closingBrowser" finished-at="2022-05-21T22:10:32 CEST" duration-ms="78" status="PASS">
+        </test-method> <!-- Anmeldung -->
+        <test-method is-config="true" signature="closingBrowser()[pri:0, instance:ui.Professor@7692d9cc]" started-at="2022-05-22T21:40:30 CEST" name="closingBrowser" finished-at="2022-05-22T21:40:30 CEST" duration-ms="418" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closingBrowser -->
       </class> <!-- ui.Professor -->
       <class name="ui.Dekan">
-        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:ui.Dekan@222114ba]" started-at="2022-05-21T22:10:32 CEST" name="launchBrowser" finished-at="2022-05-21T22:10:33 CEST" duration-ms="1020" status="PASS">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:ui.Dekan@5bfa9431]" started-at="2022-05-22T21:39:38 CEST" name="launchBrowser" finished-at="2022-05-22T21:39:39 CEST" duration-ms="1557" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -189,21 +282,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="abmeldung()[pri:0, instance:ui.Dekan@222114ba]" started-at="2022-05-21T22:10:33 CEST" name="abmeldung" finished-at="2022-05-21T22:10:34 CEST" duration-ms="1075" status="PASS">
+        <test-method signature="Abmeldung()[pri:0, instance:ui.Dekan@5bfa9431]" started-at="2022-05-22T21:39:39 CEST" name="Abmeldung" finished-at="2022-05-22T21:39:41 CEST" duration-ms="2003" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[Method name is - abmeldung]]>
+              <![CDATA[Method name is - Abmeldung]]>
             </line>
             <line>
               <![CDATA[<br>Status of execution is - passed]]>
             </line>
           </reporter-output>
-        </test-method> <!-- abmeldung -->
-        <test-method is-config="true" signature="closingBrowser()[pri:0, instance:ui.Dekan@222114ba]" started-at="2022-05-21T22:10:34 CEST" name="closingBrowser" finished-at="2022-05-21T22:10:34 CEST" duration-ms="134" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closingBrowser -->
-        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:ui.Dekan@222114ba]" started-at="2022-05-21T22:10:34 CEST" name="launchBrowser" finished-at="2022-05-21T22:10:35 CEST" duration-ms="1133" status="PASS">
+        </test-method> <!-- Abmeldung -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:ui.Dekan@5bfa9431]" started-at="2022-05-22T21:39:41 CEST" name="launchBrowser" finished-at="2022-05-22T21:39:43 CEST" duration-ms="2178" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -214,20 +303,37 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="anmeldung()[pri:0, instance:ui.Dekan@222114ba]" started-at="2022-05-21T22:10:35 CEST" name="anmeldung" finished-at="2022-05-21T22:10:36 CEST" duration-ms="962" status="PASS">
+        <test-method signature="Anmeldung()[pri:0, instance:ui.Dekan@5bfa9431]" started-at="2022-05-22T21:39:43 CEST" name="Anmeldung" finished-at="2022-05-22T21:39:45 CEST" duration-ms="1899" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[Method name is - anmeldung]]>
+              <![CDATA[Method name is - Anmeldung]]>
             </line>
             <line>
               <![CDATA[<br>Status of execution is - passed]]>
             </line>
           </reporter-output>
-        </test-method> <!-- anmeldung -->
-        <test-method is-config="true" signature="closingBrowser()[pri:0, instance:ui.Dekan@222114ba]" started-at="2022-05-21T22:10:36 CEST" name="closingBrowser" finished-at="2022-05-21T22:10:36 CEST" duration-ms="126" status="PASS">
+        </test-method> <!-- Anmeldung -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:ui.Dekan@5bfa9431]" started-at="2022-05-22T21:39:45 CEST" name="launchBrowser" finished-at="2022-05-22T21:39:47 CEST" duration-ms="1906" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- closingBrowser -->
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="Rollen_wechsel()[pri:0, instance:ui.Dekan@5bfa9431]" started-at="2022-05-22T21:39:47 CEST" name="Rollen_wechsel" finished-at="2022-05-22T21:39:52 CEST" duration-ms="5245" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Method name is - Rollen_wechsel]]>
+            </line>
+            <line>
+              <![CDATA[<br>Status of execution is - passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Rollen_wechsel -->
       </class> <!-- ui.Dekan -->
     </test> <!-- Anmeldung -->
   </suite> <!-- hsLehre Projekt test -->

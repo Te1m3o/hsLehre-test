@@ -10,12 +10,12 @@ public class Professor extends BaseTest {
   String professor ="eti.ulf.steinke@fh-stralsund.de";
   Anmeldung anmeldung = new Anmeldung();
   @Test
-  public void anmeldung(){
+  public void Anmeldung(){
     anmeldung.anmelden(professor, password);
     driver.findElement(By.xpath("/html/body/div[1]/h2")).isDisplayed();
   }
   @Test
-  public void abmeldung(){
+  public void Abmeldung(){
     anmeldung.anmelden(professor, password);
     driver.findElement(By.xpath("/html/body/div[1]/div[1]/a")).click();
     String expectedLabel = "Logout erfolgreich.";

@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -40,7 +40,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-hsLehre_Projekt_test" class="navigator-link">
-              <span class="suite-name border-passed">hsLehre Projekt test</span>
+              <span class="suite-name border-failed">hsLehre Projekt test</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -93,7 +93,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">7 methods,   7 passed</span>
+                    <span class="method-stats">10 methods, 1 failed,   9 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-hsLehre_Projekt_test" class="hide-methods failed suite-hsLehre_Projekt_test"> (hide)</a> <!-- hide-methods failed suite-hsLehre_Projekt_test -->
+                      <a href="#" panel-name="suite-hsLehre_Projekt_test" class="show-methods failed suite-hsLehre_Projekt_test"> (show)</a> <!-- show-methods failed suite-hsLehre_Projekt_test -->
+                    </span>
+                    <div class="method-list-content failed suite-hsLehre_Projekt_test">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-hsLehre_Projekt_test" title="ui.FakultaetStellvertreter" class="method navigator-link" hash-for-method="neuen_Studiengang_hinterlegen">neuen_Studiengang_hinterlegen</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-hsLehre_Projekt_test -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -104,37 +118,47 @@
                     <div class="method-list-content passed suite-hsLehre_Projekt_test">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-hsLehre_Projekt_test" title="ui.FakultaetStellvertreter" class="method navigator-link" hash-for-method="abmeldung">abmeldung</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-hsLehre_Projekt_test" title="ui.Dekan" class="method navigator-link" hash-for-method="Abmeldung">Abmeldung</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-hsLehre_Projekt_test" title="ui.Dekan" class="method navigator-link" hash-for-method="abmeldung">abmeldung</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-hsLehre_Projekt_test" title="ui.FakultaetStellvertreter" class="method navigator-link" hash-for-method="Abmeldung">Abmeldung</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-hsLehre_Projekt_test" title="ui.Professor" class="method navigator-link" hash-for-method="abmeldung">abmeldung</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-hsLehre_Projekt_test" title="ui.Professor" class="method navigator-link" hash-for-method="Abmeldung">Abmeldung</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-hsLehre_Projekt_test" title="ui.Professor" class="method navigator-link" hash-for-method="anmeldung">anmeldung</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-hsLehre_Projekt_test" title="ui.FakultaetStellvertreter" class="method navigator-link" hash-for-method="Anmeldung">Anmeldung</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-hsLehre_Projekt_test" title="ui.FakultaetStellvertreter" class="method navigator-link" hash-for-method="anmeldung">anmeldung</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-hsLehre_Projekt_test" title="ui.Professor" class="method navigator-link" hash-for-method="Anmeldung">Anmeldung</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-hsLehre_Projekt_test" title="ui.Dekan" class="method navigator-link" hash-for-method="anmeldung">anmeldung</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-hsLehre_Projekt_test" title="ui.Dekan" class="method navigator-link" hash-for-method="Anmeldung">Anmeldung</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-hsLehre_Projekt_test" title="ui.FakultaetStellvertreter" class="method navigator-link" hash-for-method="rollen_zuweisen">rollen_zuweisen</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-hsLehre_Projekt_test" title="ui.FakultaetStellvertreter" class="method navigator-link" hash-for-method="Rollen_wechsel">Rollen_wechsel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-hsLehre_Projekt_test" title="ui.Dekan" class="method navigator-link" hash-for-method="Rollen_wechsel">Rollen_wechsel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-hsLehre_Projekt_test" title="ui.FakultaetStellvertreter" class="method navigator-link" hash-for-method="Rollen_zuweisen">Rollen_zuweisen</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-hsLehre_Projekt_test -->
@@ -149,35 +173,28 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-hsLehre_Projekt_test" class="panel hsLehre_Projekt_test">
-          <div class="suite-hsLehre_Projekt_test-class-passed">
+          <div class="suite-hsLehre_Projekt_test-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
+              <img src="failed.png"/>
               <span class="class-name">ui.FakultaetStellvertreter</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="abmeldung">
-                  </a> <!-- abmeldung -->
-                  <span class="method-name">abmeldung</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="anmeldung">
-                  </a> <!-- anmeldung -->
-                  <span class="method-name">anmeldung</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="rollen_zuweisen">
-                  </a> <!-- rollen_zuweisen -->
-                  <span class="method-name">rollen_zuweisen</span>
+                  <a name="neuen_Studiengang_hinterlegen">
+                  </a> <!-- neuen_Studiengang_hinterlegen -->
+                  <span class="method-name">neuen_Studiengang_hinterlegen</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Test Bezeichnung] but found [Matthias Ahlhaus]
+	at ui.FakultaetStellvertreter.neuen_Studiengang_hinterlegen(FakultaetStellvertreter.java:107)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-hsLehre_Projekt_test-class-passed -->
+          </div> <!-- suite-hsLehre_Projekt_test-class-failed -->
           <div class="suite-hsLehre_Projekt_test-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -186,16 +203,23 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="abmeldung">
-                  </a> <!-- abmeldung -->
-                  <span class="method-name">abmeldung</span>
+                  <a name="Abmeldung">
+                  </a> <!-- Abmeldung -->
+                  <span class="method-name">Abmeldung</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="anmeldung">
-                  </a> <!-- anmeldung -->
-                  <span class="method-name">anmeldung</span>
+                  <a name="Anmeldung">
+                  </a> <!-- Anmeldung -->
+                  <span class="method-name">Anmeldung</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Rollen_wechsel">
+                  </a> <!-- Rollen_wechsel -->
+                  <span class="method-name">Rollen_wechsel</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -208,16 +232,52 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="abmeldung">
-                  </a> <!-- abmeldung -->
-                  <span class="method-name">abmeldung</span>
+                  <a name="Abmeldung">
+                  </a> <!-- Abmeldung -->
+                  <span class="method-name">Abmeldung</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="anmeldung">
-                  </a> <!-- anmeldung -->
-                  <span class="method-name">anmeldung</span>
+                  <a name="Anmeldung">
+                  </a> <!-- Anmeldung -->
+                  <span class="method-name">Anmeldung</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-hsLehre_Projekt_test-class-passed -->
+          <div class="suite-hsLehre_Projekt_test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">ui.FakultaetStellvertreter</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Abmeldung">
+                  </a> <!-- Abmeldung -->
+                  <span class="method-name">Abmeldung</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Anmeldung">
+                  </a> <!-- Anmeldung -->
+                  <span class="method-name">Anmeldung</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Rollen_wechsel">
+                  </a> <!-- Rollen_wechsel -->
+                  <span class="method-name">Rollen_wechsel</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Rollen_zuweisen">
+                  </a> <!-- Rollen_zuweisen -->
+                  <span class="method-name">Rollen_zuweisen</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -280,40 +340,52 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(7);
+data.addRows(10);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'rollen_zuweisen')
+data.setCell(0, 1, 'Rollen_zuweisen')
 data.setCell(0, 2, 'ui.FakultaetStellvertreter')
-data.setCell(0, 3, 2531);
+data.setCell(0, 3, 14164);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'abmeldung')
-data.setCell(1, 2, 'ui.FakultaetStellvertreter')
-data.setCell(1, 3, 1327);
+data.setCell(1, 1, 'Rollen_wechsel')
+data.setCell(1, 2, 'ui.Dekan')
+data.setCell(1, 3, 5245);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'abmeldung')
-data.setCell(2, 2, 'ui.Professor')
-data.setCell(2, 3, 1235);
+data.setCell(2, 1, 'Rollen_wechsel')
+data.setCell(2, 2, 'ui.FakultaetStellvertreter')
+data.setCell(2, 3, 4556);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'anmeldung')
+data.setCell(3, 1, 'Abmeldung')
 data.setCell(3, 2, 'ui.FakultaetStellvertreter')
-data.setCell(3, 3, 1139);
+data.setCell(3, 3, 2594);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'abmeldung')
-data.setCell(4, 2, 'ui.Dekan')
-data.setCell(4, 3, 1075);
+data.setCell(4, 1, 'neuen_Studiengang_hinterlegen')
+data.setCell(4, 2, 'ui.FakultaetStellvertreter')
+data.setCell(4, 3, 2508);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'anmeldung')
-data.setCell(5, 2, 'ui.Professor')
-data.setCell(5, 3, 1059);
+data.setCell(5, 1, 'Anmeldung')
+data.setCell(5, 2, 'ui.FakultaetStellvertreter')
+data.setCell(5, 3, 2373);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'anmeldung')
+data.setCell(6, 1, 'Abmeldung')
 data.setCell(6, 2, 'ui.Dekan')
-data.setCell(6, 3, 962);
+data.setCell(6, 3, 2003);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'Anmeldung')
+data.setCell(7, 2, 'ui.Dekan')
+data.setCell(7, 3, 1899);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'Anmeldung')
+data.setCell(8, 2, 'ui.Professor')
+data.setCell(8, 3, 1509);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'Abmeldung')
+data.setCell(9, 2, 'ui.Professor')
+data.setCell(9, 3, 1441);
 window.suiteTableData['hsLehre_Projekt_test']= { tableData: data, tableDiv: 'times-div-hsLehre_Projekt_test'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 9 seconds</span>
+              <span class="suite-total-time">Total running time: 38 seconds</span>
               <div id="times-div-hsLehre_Projekt_test">
               </div> <!-- times-div-hsLehre_Projekt_test -->
             </div> <!-- times-div -->
@@ -325,61 +397,97 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="reporter-method-div">
-              <span class="reporter-method-name">anmeldung</span>
+              <span class="reporter-method-name">Rollen_wechsel</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Method name is - anmeldung</span>
+                <span class="reporter-method-output">Method name is - Rollen_wechsel</span>
                 <span class="reporter-method-output"><br>Status of execution is - passed</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">abmeldung</span>
+              <span class="reporter-method-name">Anmeldung</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Method name is - abmeldung</span>
+                <span class="reporter-method-output">Method name is - Anmeldung</span>
                 <span class="reporter-method-output"><br>Status of execution is - passed</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">abmeldung</span>
+              <span class="reporter-method-name">Rollen_wechsel</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Method name is - abmeldung</span>
+                <span class="reporter-method-output">Method name is - Rollen_wechsel</span>
                 <span class="reporter-method-output"><br>Status of execution is - passed</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">abmeldung</span>
+              <span class="reporter-method-name">Rollen_zuweisen</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Method name is - abmeldung</span>
+                <span class="reporter-method-output">Method name is - Rollen_zuweisen</span>
                 <span class="reporter-method-output"><br>Status of execution is - passed</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">rollen_zuweisen</span>
+              <span class="reporter-method-name">Abmeldung</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Method name is - rollen_zuweisen</span>
+                <span class="reporter-method-output">Method name is - Abmeldung</span>
                 <span class="reporter-method-output"><br>Status of execution is - passed</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">anmeldung</span>
+              <span class="reporter-method-name">Abmeldung</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Method name is - anmeldung</span>
+                <span class="reporter-method-output">Method name is - Abmeldung</span>
                 <span class="reporter-method-output"><br>Status of execution is - passed</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">anmeldung</span>
+              <span class="reporter-method-name">Abmeldung</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Method name is - anmeldung</span>
+                <span class="reporter-method-output">Method name is - Abmeldung</span>
                 <span class="reporter-method-output"><br>Status of execution is - passed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Anmeldung</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Method name is - Anmeldung</span>
+                <span class="reporter-method-output"><br>Status of execution is - passed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Anmeldung</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Method name is - Anmeldung</span>
+                <span class="reporter-method-output"><br>Status of execution is - passed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">neuen_Studiengang_hinterlegen</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Method name is - neuen_Studiengang_hinterlegen</span>
+                <span class="reporter-method-output">Status of execution is - failed</span>
+                <span class="reporter-method-output"><br>Screenshot - <a href="file:///hsLehre-test/screenshotSun-May-22-21-40-30-CEST-2022.png">Test Results</a></span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="ignored-methods-hsLehre_Projekt_test" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">0 ignored methods</span>
+            <span class="header-content">2 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">ui.Dekan</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">closingBrowser</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">ui.FakultaetStellvertreter</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">closingBrowser</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-hsLehre_Projekt_test" class="panel">
@@ -394,91 +502,96 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">abmeldung</span>
-                <span class="method-start">2851 ms</span>
+                <span class="method-name">Abmeldung</span>
+                <span class="method-start">3164 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">closingBrowser</span>
-                <span class="method-start">4088 ms</span>
-              </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">launchBrowser(chrome)</span>
-                <span class="method-start">4221 ms</span>
+                <span class="method-start">4608 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">anmeldung</span>
-                <span class="method-start">5264 ms</span>
+                <span class="method-name">Anmeldung</span>
+                <span class="method-start">5833 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">closingBrowser</span>
-                <span class="method-start">6323 ms</span>
-              </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">ui.Dekan</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">launchBrowser(chrome)</span>
-                <span class="method-start">6405 ms</span>
+                <span class="method-start">7346 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">abmeldung</span>
-                <span class="method-start">7425 ms</span>
+                <span class="method-name">Abmeldung</span>
+                <span class="method-start">8903 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">closingBrowser</span>
-                <span class="method-start">8500 ms</span>
-              </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">launchBrowser(chrome)</span>
-                <span class="method-start">8635 ms</span>
+                <span class="method-start">10907 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">anmeldung</span>
-                <span class="method-start">9768 ms</span>
+                <span class="method-name">Anmeldung</span>
+                <span class="method-start">13085 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">closingBrowser</span>
-                <span class="method-start">10730 ms</span>
-              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser(chrome)</span>
+                <span class="method-start">14985 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Rollen_wechsel</span>
+                <span class="method-start">16891 ms</span>
+              </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">ui.FakultaetStellvertreter</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">launchBrowser(chrome)</span>
-                <span class="method-start">10861 ms</span>
+                <span class="method-start">22139 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">abmeldung</span>
-                <span class="method-start">11932 ms</span>
+                <span class="method-name">Abmeldung</span>
+                <span class="method-start">24050 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">closingBrowser</span>
-                <span class="method-start">13259 ms</span>
-              </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">launchBrowser(chrome)</span>
-                <span class="method-start">13365 ms</span>
+                <span class="method-start">26646 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">anmeldung</span>
-                <span class="method-start">14424 ms</span>
+                <span class="method-name">Anmeldung</span>
+                <span class="method-start">28542 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">closingBrowser</span>
-                <span class="method-start">15564 ms</span>
-              </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">launchBrowser(chrome)</span>
-                <span class="method-start">15696 ms</span>
+                <span class="method-start">30915 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">rollen_zuweisen</span>
-                <span class="method-start">16761 ms</span>
+                <span class="method-name">Rollen_wechsel</span>
+                <span class="method-start">33064 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser(chrome)</span>
+                <span class="method-start">37621 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Rollen_zuweisen</span>
+                <span class="method-start">39381 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser(chrome)</span>
+                <span class="method-start">53546 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">neuen_Studiengang_hinterlegen</span>
+                <span class="method-start">54754 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ui.Professor</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
                 <span class="method-name">closingBrowser</span>
-                <span class="method-start">19293 ms</span>
-              </div> <!-- configuration-method after -->
+                <span class="method-start">59642 ms</span>
+              </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

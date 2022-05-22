@@ -30,7 +30,7 @@ public class BaseTest {
       driver = new EdgeDriver();
     }
   }
-  @AfterClass
+  @AfterTest
   public void closingBrowser() {
     driver.close();
   }

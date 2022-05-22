@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Anmeldung</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>7/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>9/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sat May 21 22:10:25 CEST 2022</td>
+<td>Started on:</td><td>Sun May 22 21:39:30 CEST 2022</td>
 </tr>
-<tr><td>Total time:</td><td>19 seconds (19435 ms)</td>
+<tr><td>Total time:</td><td>60 seconds (60118 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,69 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='ui.FakultaetStellvertreter.neuen_Studiengang_hinterlegen()'><b>neuen_Studiengang_hinterlegen</b><br>Test class: ui.FakultaetStellvertreter<br/>
+<a href="#Output-358636931" onClick='toggleBox("Output-358636931", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-358636931" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-358636931">
+Method name is - neuen_Studiengang_hinterlegen<br/>
+Status of execution is - failed<br/>
+<br>Screenshot - <a href="file:///hsLehre-test/screenshotSun-May-22-21-40-30-CEST-2022.png">Test Results</a><br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [Test Bezeichnung] but found [Matthias Ahlhaus]
+	at ui.FakultaetStellvertreter.neuen_Studiengang_hinterlegen(FakultaetStellvertreter.java:107)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace358636931", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace358636931'><pre>java.lang.AssertionError: expected [Test Bezeichnung] but found [Matthias Ahlhaus]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.testng.Assert.assertEquals(Assert.java:665)
+	at ui.FakultaetStellvertreter.neuen_Studiengang_hinterlegen(FakultaetStellvertreter.java:107)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:808)
+	at org.testng.TestRunner.run(TestRunner.java:603)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.runSuites(TestNG.java:1092)
+	at org.testng.TestNG.run(TestNG.java:1060)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+</pre></div></td>
+<td>2</td>
+<td>ui.FakultaetStellvertreter@5db250b4</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -75,96 +138,122 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='ui.Professor.anmeldung()'><b>anmeldung</b><br>Test class: ui.Professor<br/>
-<a href="#Output-225753796" onClick='toggleBox("Output-225753796", this, "Show output", "Hide output");'>Show output</a>
+<td title='ui.FakultaetStellvertreter.Rollen_wechsel()'><b>Rollen_wechsel</b><br>Test class: ui.FakultaetStellvertreter<br/>
+<a href="#Output-1687430663" onClick='toggleBox("Output-1687430663", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-225753796" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-225753796">
-Method name is - anmeldung<br/>
+<a href="#Output-1687430663" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1687430663">
+Method name is - Rollen_wechsel<br/>
 <br>Status of execution is - passed<br/>
 </div>
 </td>
 <td></td>
-<td>1</td>
-<td>ui.Professor@4b44655e</td></tr>
+<td>4</td>
+<td>ui.FakultaetStellvertreter@5db250b4</td></tr>
 <tr>
-<td title='ui.FakultaetStellvertreter.abmeldung()'><b>abmeldung</b><br>Test class: ui.FakultaetStellvertreter<br/>
-<a href="#Output-2136291489" onClick='toggleBox("Output-2136291489", this, "Show output", "Hide output");'>Show output</a>
+<td title='ui.FakultaetStellvertreter.Anmeldung()'><b>Anmeldung</b><br>Test class: ui.FakultaetStellvertreter<br/>
+<a href="#Output-257745083" onClick='toggleBox("Output-257745083", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-2136291489" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-2136291489">
-Method name is - abmeldung<br/>
-<br>Status of execution is - passed<br/>
-</div>
-</td>
-<td></td>
-<td>1</td>
-<td>ui.FakultaetStellvertreter@16e7dcfd</td></tr>
-<tr>
-<td title='ui.Dekan.abmeldung()'><b>abmeldung</b><br>Test class: ui.Dekan<br/>
-<a href="#Output-1083086553" onClick='toggleBox("Output-1083086553", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1083086553" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1083086553">
-Method name is - abmeldung<br/>
-<br>Status of execution is - passed<br/>
-</div>
-</td>
-<td></td>
-<td>1</td>
-<td>ui.Dekan@222114ba</td></tr>
-<tr>
-<td title='ui.Professor.abmeldung()'><b>abmeldung</b><br>Test class: ui.Professor<br/>
-<a href="#Output-1318209130" onClick='toggleBox("Output-1318209130", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1318209130" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1318209130">
-Method name is - abmeldung<br/>
-<br>Status of execution is - passed<br/>
-</div>
-</td>
-<td></td>
-<td>1</td>
-<td>ui.Professor@4b44655e</td></tr>
-<tr>
-<td title='ui.FakultaetStellvertreter.rollen_zuweisen()'><b>rollen_zuweisen</b><br>Test class: ui.FakultaetStellvertreter<br/>
-<a href="#Output-2037964834" onClick='toggleBox("Output-2037964834", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-2037964834" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-2037964834">
-Method name is - rollen_zuweisen<br/>
+<a href="#Output-257745083" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-257745083">
+Method name is - Anmeldung<br/>
 <br>Status of execution is - passed<br/>
 </div>
 </td>
 <td></td>
 <td>2</td>
-<td>ui.FakultaetStellvertreter@16e7dcfd</td></tr>
+<td>ui.FakultaetStellvertreter@5db250b4</td></tr>
 <tr>
-<td title='ui.FakultaetStellvertreter.anmeldung()'><b>anmeldung</b><br>Test class: ui.FakultaetStellvertreter<br/>
-<a href="#Output-789315095" onClick='toggleBox("Output-789315095", this, "Show output", "Hide output");'>Show output</a>
+<td title='ui.Dekan.Rollen_wechsel()'><b>Rollen_wechsel</b><br>Test class: ui.Dekan<br/>
+<a href="#Output-401862395" onClick='toggleBox("Output-401862395", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-789315095" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-789315095">
-Method name is - anmeldung<br/>
+<a href="#Output-401862395" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-401862395">
+Method name is - Rollen_wechsel<br/>
+<br>Status of execution is - passed<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>ui.Dekan@5bfa9431</td></tr>
+<tr>
+<td title='ui.FakultaetStellvertreter.Rollen_zuweisen()'><b>Rollen_zuweisen</b><br>Test class: ui.FakultaetStellvertreter<br/>
+<a href="#Output-1515282013" onClick='toggleBox("Output-1515282013", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1515282013" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1515282013">
+Method name is - Rollen_zuweisen<br/>
+<br>Status of execution is - passed<br/>
+</div>
+</td>
+<td></td>
+<td>14</td>
+<td>ui.FakultaetStellvertreter@5db250b4</td></tr>
+<tr>
+<td title='ui.Dekan.Abmeldung()'><b>Abmeldung</b><br>Test class: ui.Dekan<br/>
+<a href="#Output-1417126346" onClick='toggleBox("Output-1417126346", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1417126346" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1417126346">
+Method name is - Abmeldung<br/>
+<br>Status of execution is - passed<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>ui.Dekan@5bfa9431</td></tr>
+<tr>
+<td title='ui.FakultaetStellvertreter.Abmeldung()'><b>Abmeldung</b><br>Test class: ui.FakultaetStellvertreter<br/>
+<a href="#Output-1500151620" onClick='toggleBox("Output-1500151620", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1500151620" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1500151620">
+Method name is - Abmeldung<br/>
+<br>Status of execution is - passed<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>ui.FakultaetStellvertreter@5db250b4</td></tr>
+<tr>
+<td title='ui.Professor.Abmeldung()'><b>Abmeldung</b><br>Test class: ui.Professor<br/>
+<a href="#Output-131301148" onClick='toggleBox("Output-131301148", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-131301148" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-131301148">
+Method name is - Abmeldung<br/>
 <br>Status of execution is - passed<br/>
 </div>
 </td>
 <td></td>
 <td>1</td>
-<td>ui.FakultaetStellvertreter@16e7dcfd</td></tr>
+<td>ui.Professor@7692d9cc</td></tr>
 <tr>
-<td title='ui.Dekan.anmeldung()'><b>anmeldung</b><br>Test class: ui.Dekan<br/>
-<a href="#Output-1730595945" onClick='toggleBox("Output-1730595945", this, "Show output", "Hide output");'>Show output</a>
+<td title='ui.Professor.Anmeldung()'><b>Anmeldung</b><br>Test class: ui.Professor<br/>
+<a href="#Output-956337311" onClick='toggleBox("Output-956337311", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1730595945" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1730595945">
-Method name is - anmeldung<br/>
+<a href="#Output-956337311" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-956337311">
+Method name is - Anmeldung<br/>
 <br>Status of execution is - passed<br/>
 </div>
 </td>
 <td></td>
-<td>0</td>
-<td>ui.Dekan@222114ba</td></tr>
+<td>1</td>
+<td>ui.Professor@7692d9cc</td></tr>
+<tr>
+<td title='ui.Dekan.Anmeldung()'><b>Anmeldung</b><br>Test class: ui.Dekan<br/>
+<a href="#Output-646204091" onClick='toggleBox("Output-646204091", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-646204091" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-646204091">
+Method name is - Anmeldung<br/>
+<br>Status of execution is - passed<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>ui.Dekan@5bfa9431</td></tr>
 </table><p>
 </body>
 </html>
