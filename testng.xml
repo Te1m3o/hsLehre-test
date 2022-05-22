@@ -7,8 +7,8 @@
   <test name="Anmeldung">
     <classes>
       <class name="ui.Professor" />
-      <class name="ui.Dekan" />
-      <class name="ui.FakultaetStellvertreter"></class>
+<!--      <class name="ui.Dekan" />-->
+<!--      <class name="ui.FakultaetStellvertreter"></class>-->
     </classes>
   </test>
 </suite>
